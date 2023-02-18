@@ -4,7 +4,7 @@
   <groupId>org.openjfx</groupId>
   <artifactId>hellofx</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
   <name>demo</name>
   <url>http://maven.apache.org</url>
 
@@ -13,6 +13,10 @@
     <javafx.version>17.0.1</javafx.version>
     <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
   </properties>
+  
+  <parent>
+    <version>3.0.2022<version>
+  </parent>
 
   <dependencies>
     <dependency>
